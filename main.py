@@ -22,3 +22,4 @@ AB_DF = AB_DF.drop(INDEX_TO_DROP_1)
 NONSENSICAL_2 = (AB_DF["group"] == "treatment") & (AB_DF["landing_page"] == "old_page")
 INDEX_TO_DROP_2 = AB_DF[NONSENSICAL_2].index
 AB_DF = AB_DF.drop(INDEX_TO_DROP_2)
+
